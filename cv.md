@@ -9,3 +9,9 @@ My goal is to live a decent life, see the world, and gain financial security. On
 
 ## Skills
 There are no IT skills, but there is a desire and desire to learn.
+
+## Code Example
+All codes are under development.
+
+## Experience
+No experience in the IT field.
