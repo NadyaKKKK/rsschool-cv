@@ -15,3 +15,13 @@ All codes are under development.
 
 ## Experience
 No experience in the IT field.
+
+## Education
+In 2015 she graduated from Grodno State University. Ya. Kupala, majoring in economics.
+
+## Languages
+* English level – A1.
+* German level - A2. 
+* Polish level - A1.  
+
+
