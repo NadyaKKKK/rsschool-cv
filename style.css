@@ -5,3 +5,6 @@ body {
         font-family: Roboto;
         src: url("assets/fonts/Roboto.ttf");
       }
+      .photo Nadya {
+        width: 250px;
+      }
