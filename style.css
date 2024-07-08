@@ -1,3 +1,13 @@
+.container{
+  margin: 0 20px 20px 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+body {
+  background-color: #907da0;
+  font-family: Candara, sans-serif;
+}
 .photo {
     width: 200px;
   height: 200px;
@@ -7,7 +17,31 @@
   filter: grayscale(0.2) brightness(1.05);
   transition: .3s;
 }
-
+.header {
+  background-color: rgb(238, 186, 16);
+}
+.menu {
+  flex-direction: row-reverse;
+  font-size: 20px;
+  }
+.menunav {
+  flex-direction: row-reverse;
+    width: 20em;
+  margin: 0 auto;
+  min-height: 50px;
+  }
+.name {
+  display: flex;
+   
+     align-items: center;
+    justify-content: center;
+}
+.container-f {
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+}
 .rsschool {
         background-image: url("./assets/img/rsschool-logo.svg");
   }
