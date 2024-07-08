@@ -6,7 +6,6 @@
 }
 body {
   background-color: #907da0;
-  font-family: Candara, sans-serif;
 }
 .photo {
     width: 200px;
@@ -20,21 +19,40 @@ body {
 .header {
   background-color: rgb(238, 186, 16);
 }
+
+h1 {
+  font-family: 'DM Sans'; 
+  font-size: 50px;
+  font-weight: 800;
+  }
+.list-nav {
+  list-style-type: none;
+}
+.nav-item {
+display: inline;
+font-family: 'DM Sans';
+font-variant: small-caps;
+font-size: 25px;
+margin-right: 63px;
+}
+.nav-link {
+  text-decoration: none;
+  color: rgba(51, 9, 129, 0.749);
+    }
+    .nav-link:hover {
+      font-weight: 700;
+    }
 .menu {
-  flex-direction: row-reverse;
   font-size: 20px;
   }
 .menunav {
   flex-direction: row-reverse;
-    width: 20em;
   margin: 0 auto;
   min-height: 50px;
   }
 .name {
   display: flex;
-   
-     align-items: center;
-    justify-content: center;
+  justify-content: center;
 }
 .container-f {
   display: flex;
@@ -43,5 +61,6 @@ body {
     font-size: 16px;
 }
 .rsschool {
-        background-image: url("./assets/img/rsschool-logo.svg");
+        width: 90px;
+        
   }
