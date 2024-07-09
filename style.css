@@ -1,9 +1,16 @@
-.container{
-  margin: 0 20px 20px 20px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
+.menunav-container {
+  display: flex;
+ position: relative;
+ 
+  max-width: 1440px;
+  margin: 0 auto;
+  justify-content: center;
 }
+.container{
+  margin: 0 auto;
+    max-width: 1440px;
+}
+
 body {
   background-color: #907da0;
   font-family: 'DM Sans';
@@ -47,11 +54,11 @@ margin-right: 63px;
 .menu {
   font-size: 20px;
   }
-.menunav {
+/* .menunav {
   flex-direction: row-reverse;
   margin: 0 auto;
   min-height: 50px;
-  }
+  } */
 .name {
   display: flex;
   justify-content: center;
@@ -63,6 +70,8 @@ margin-right: 63px;
 .container-f {
   display: flex;
     align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
     justify-content: space-between;
     font-size: 16px;
 }
