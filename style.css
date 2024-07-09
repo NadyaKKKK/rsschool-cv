@@ -54,6 +54,10 @@ margin-right: 63px;
   display: flex;
   justify-content: center;
 }
+.skills {
+  font-size: 16px;
+  align-items: center;
+}
 .container-f {
   display: flex;
     align-items: center;
