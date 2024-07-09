@@ -6,15 +6,17 @@
 }
 body {
   background-color: #907da0;
-}
+  font-family: 'DM Sans';
+  font-size: 20px;
+
+  }
 .photo {
-    width: 200px;
-  height: 200px;
+    width: 250px;
+  height: 250px;
   object-fit: cover;
   border-radius: 50%;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  box-shadow: 0px 5px 5px rgba(167, 14, 154, 0.837);
   filter: grayscale(0.2) brightness(1.05);
-  transition: .3s;
 }
 .header {
   background-color: rgb(238, 186, 16);
@@ -39,7 +41,7 @@ margin-right: 63px;
   text-decoration: none;
   color: rgba(51, 9, 129, 0.749);
     }
-    .nav-link:hover {
+ .nav-link:hover {
       font-weight: 700;
     }
 .menu {
@@ -63,6 +65,10 @@ margin-right: 63px;
     align-items: center;
     justify-content: space-between;
     font-size: 16px;
+}
+.contacts_link{
+  text-decoration: none;
+  color: black;
 }
 .rsschool {
         width: 90px;
