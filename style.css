@@ -1,47 +1,89 @@
+.menunav-container {
+  display: flex;
+ position: relative;
+  
+  margin: 0 auto;
+  justify-content: center;
+}
 .container{
-  margin: 0 20px 20px 20px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
+   margin: 0 auto;
+    max-width: 1440px;
+    background-color: #907da0;
+}
+main{
+  padding-left: 30px;
+  padding-right: 30px;
 }
 body {
-  background-color: #907da0;
-  font-family: Candara, sans-serif;
-}
+  
+  font-family: 'DM Sans';
+  font-size: 20px;
+
+
+  }
 .photo {
-    width: 200px;
-  height: 200px;
+    width: 250px;
+  height: 250px;
   object-fit: cover;
   border-radius: 50%;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  box-shadow: 0px 5px 5px rgba(167, 14, 154, 0.837);
   filter: grayscale(0.2) brightness(1.05);
-  transition: .3s;
 }
 .header {
   background-color: rgb(238, 186, 16);
 }
-.menu {
-  flex-direction: row-reverse;
-  font-size: 20px;
+
+h1 {
+  font-family: 'DM Sans'; 
+  font-size: 50px;
+  font-weight: 800;
   }
-.menunav {
-  flex-direction: row-reverse;
-    width: 20em;
-  margin: 0 auto;
-  min-height: 50px;
+.list-nav {
+  list-style-type: none;
+}
+.nav-item {
+display: inline;
+font-family: 'DM Sans';
+font-variant: small-caps;
+font-size: 25px;
+margin-right: 63px;
+}
+.nav-link {
+  text-decoration: none;
+  color: rgba(51, 9, 129, 0.749);
+    }
+ .nav-link:hover {
+      font-weight: 700;
+    }
+.menu {
+  font-size: 20px;
   }
 .name {
   display: flex;
-   
-     align-items: center;
-    justify-content: center;
+  justify-content: center;
+}
+.skills {
+  font-size: 16px;
+  align-items: center;
+}
+footer {
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .container-f {
+  padding-right: 30px;
   display: flex;
     align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
     justify-content: space-between;
     font-size: 16px;
+ }
+.contacts_link{
+  text-decoration: none;
+  color: black;
 }
 .rsschool {
-        background-image: url("./assets/img/rsschool-logo.svg");
+        width: 90px;
+        
   }
